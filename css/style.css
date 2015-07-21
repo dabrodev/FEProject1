@@ -7,7 +7,7 @@
 
 
 body {
-	font-family: "Lato", sans-serif;
+	font: 100%/1.6 "Lato", sans-serif;
 	color: #747704;
 }
 
@@ -19,14 +19,22 @@ header {
 
 
 h1.name {
-	margin: 10px 0 10px;
+	margin: 0;
 	font-weight: 100;
 }
 
 
 h3.slogan {
-	margin: 0 0 10px;
+  margin: 10px 0 0;
 	font-weight: 300;
+}
+
+
+@media screen and (max-width: 520px) {
+  h1.name,
+  h3.slogan {
+    font-size: 2em;
+  }
 }
 
 
@@ -38,7 +46,7 @@ hr {
 /* Portfolio */
 .portfolio h2 {
 	color: #bcbbbb;
-	padding: 15px 0 10px 10px;
+	padding: 15px 0 0 10px;
 }
 
 
@@ -49,12 +57,14 @@ hr {
 
 .portfolio-item img {
 	cursor: pointer;
+  padding: 10px 0 0;
 }
 
 
 .portfolio-item a {
+
 	font-weight: 100;
-	font-size: 0.9em;
+	font-size: 1.4em;
 	color: #747704;
 }
 
