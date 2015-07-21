@@ -5,55 +5,66 @@
 * #747704 /darkgreen
 */
 
+
 body {
- font-family: 'Lato', sans-serif;
- color: #747704;
+	font-family: "Lato", sans-serif;
+	color: #747704;
 }
 
+
+/* Header */
 header {
-  margin-top: 20px;
+	margin: 20px 0 0;
 }
+
 
 h1.name {
-  margin-bottom: 10px;
-  font-weight: 100;
+	margin: 10px 0 10px;
+	font-weight: 100;
 }
 
 
 h3.slogan {
-  margin-top: 0;
-  font-weight: 300;
+	margin: 0 0 10px;
+	font-weight: 300;
 }
+
 
 hr {
-  border: 1px solid #bcbbbb;
+	border: 1px solid #bcbbbb;
 }
 
+
+/* Portfolio */
 .portfolio h2 {
-  color: #bcbbbb;
-  padding: 15px 0 10px 10px;
+	color: #bcbbbb;
+	padding: 15px 0 10px 10px;
 }
+
 
 .portfolio-item {
-  text-align: center;
-  padding-bottom: 20px;
+	text-align: center;
 }
+
 
 .portfolio-item img {
-    cursor: pointer;
+	cursor: pointer;
 }
+
 
 .portfolio-item a {
-  font-weight: 100;
-  font-size: 0.9em;
-  color: #747704;
+	font-weight: 100;
+	font-size: 0.9em;
+	color: #747704;
 }
 
+
+/* Modal */
 .modal-body img {
-  margin-bottom: 20px;
+	margin: 0 0 20px;
 }
 
-
+/* Footer */
 footer {
-  text-align: center;
+	text-align: center;
 }
