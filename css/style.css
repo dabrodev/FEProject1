@@ -1,0 +1,51 @@
+/* Custom Style by Damian Dabrowski
+*
+* #f8981c /orange
+* #bcbbbb /grey
+* #747704 /darkgreen
+*/
+
+body {
+ font-family: 'Lato', sans-serif;
+ color: #747704;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1.name {
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+
+h3.slogan {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+hr {
+  border: 1px solid #bcbbbb;
+}
+
+.portfolio h2 {
+  color: #bcbbbb;
+  padding: 15px 0 10px 10px;
+}
+
+.portfolio-item {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.portfolio-item a {
+  font-weight: 100;
+  font-size: 0.9em;
+   color: #747704;
+
+}
+
+
+footer {
+  text-align: center;
+}
