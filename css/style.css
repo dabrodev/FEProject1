@@ -38,11 +38,19 @@ hr {
   text-align: center;
   padding-bottom: 20px;
 }
+
+.portfolio-item img {
+    cursor: pointer;
+}
+
 .portfolio-item a {
   font-weight: 100;
   font-size: 0.9em;
-   color: #747704;
+  color: #747704;
+}
 
+.modal-body img {
+  margin-bottom: 20px;
 }
 
 
