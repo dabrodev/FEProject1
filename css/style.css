@@ -30,8 +30,8 @@ header {
 
 
 @media screen and (max-width: 520px) {
-  .name,
-  .slogan {
+	.name,
+	.slogan {
 		font-size: 1.3em;
   }
 }
