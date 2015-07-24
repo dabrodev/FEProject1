@@ -7,10 +7,13 @@
 
 
 body {
-	font: 100%/1.6 "Lato", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: #747704;
 }
 
+.container {
+	background: #fff;
+}
 
 /* Header */
 header {
@@ -18,22 +21,21 @@ header {
 }
 
 
-h1.name {
+.name {
 	margin: 0;
 	font-weight: 100;
 }
 
 
-h3.slogan {
+.slogan {
   margin: 10px 0 0;
-	font-weight: 300;
 }
 
 
 @media screen and (max-width: 520px) {
-  h1.name,
-  h3.slogan {
-    font-size: 2em;
+  .name,
+  .slogan {
+    font-size: 1.3em;
   }
 }
 
@@ -44,7 +46,7 @@ hr {
 
 
 /* Portfolio */
-.portfolio h2 {
+.featured-title {
 	color: #bcbbbb;
 	padding: 15px 0 0 10px;
 }
@@ -55,23 +57,18 @@ hr {
 }
 
 
-.portfolio-item img {
-	cursor: pointer;
-  padding: 10px 0 0;
-}
-
-
-.portfolio-item a {
+.portfolio-link {
 
 	font-weight: 100;
-	font-size: 1.4em;
+	font-size: 1em;
 	color: #747704;
 }
 
 
 /* Modal */
-.modal-body img {
+.modal-img {
 	margin: 0 0 20px;
+	cursor: pointer;
 }
 
 /* Footer */
