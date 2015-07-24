@@ -11,9 +11,6 @@ body {
 	color: #747704;
 }
 
-.container {
-	background: #fff;
-}
 
 /* Header */
 header {
@@ -57,8 +54,13 @@ hr {
 }
 
 
-.portfolio-link {
+.portfolio-img {
+	cursor: pointer;
+	padding: 10px 0 0;
+}
 
+
+.portfolio-link {
 	font-weight: 100;
 	font-size: 1em;
 	color: #747704;
@@ -68,8 +70,8 @@ hr {
 /* Modal */
 .modal-img {
 	margin: 0 0 20px;
-	cursor: pointer;
 }
+
 
 /* Footer */
 footer {
