@@ -5,29 +5,24 @@
 * #747704 /darkgreen
 */
 
-
 body {
 	font-family: "Lato", sans-serif;
 	color: #747704;
 }
-
 
 /* Header */
 header {
 	margin: 20px 0 0;
 }
 
-
 .name {
 	margin: 0;
 	font-weight: 100;
 }
 
-
 .slogan {
   margin: 10px 0 0;
 }
-
 
 @media screen and (max-width: 520px) {
 	.name,
@@ -36,11 +31,9 @@ header {
 	}
 }
 
-
 hr {
 	border: 1px solid #bcbbbb;
 }
-
 
 /* Portfolio */
 .featured-title {
@@ -48,17 +41,14 @@ hr {
 	padding: 15px 0 0 10px;
 }
 
-
 .portfolio-item {
 	text-align: center;
 }
-
 
 .portfolio-img {
 	cursor: pointer;
 	padding: 10px 0 0;
 }
-
 
 .portfolio-link {
 	font-weight: 100;
@@ -66,12 +56,10 @@ hr {
 	color: #747704;
 }
 
-
 /* Modal */
 .modal-img {
 	margin: 0 0 20px;
 }
-
 
 /* Footer */
 footer {
