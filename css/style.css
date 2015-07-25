@@ -10,7 +10,12 @@ body {
 	color: #747704;
 }
 
-/* Header */
+/* 
+*
+* Header 
+*
+*/
+
 header {
 	margin: 20px 0 0;
 }
@@ -35,7 +40,12 @@ hr {
 	border: 1px solid #bcbbbb;
 }
 
-/* Portfolio */
+/* 
+*
+* Porfolio
+*
+*/
+
 .featured-title {
 	color: #bcbbbb;
 	padding: 15px 0 0 10px;
@@ -56,12 +66,22 @@ hr {
 	color: #747704;
 }
 
-/* Modal */
+/* 
+*
+* Modal
+*
+*/
+
 .modal-img {
 	margin: 0 0 20px;
 }
 
-/* Footer */
+/* 
+*
+* Footer
+*
+*/
+
 footer {
 	text-align: center;
 }
